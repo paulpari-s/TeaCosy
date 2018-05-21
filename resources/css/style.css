@@ -42,15 +42,20 @@ nav span {
   padding: 30px 10px;
 }
 
-/*Lead Content*/
+/*Content*/
 
-.lead-content {
+.content {
+  position: relative;
+  top: 69px;
+}
+
+/*Mission*/
+
+#mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   max-width: 1200px;
   margin: auto;
-  position: relative;
-  top: 69px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,4 +65,27 @@ nav span {
 .banner {
   background-color: black;
   width: 100%;
+}
+
+/*Featured*/
+
+#featured {
+  width: 1000px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+#featured img {
+  width: 300px;
+  height: 200px;
+}
+
+.first-row, .second-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-row {
+  margin: auto;
+  width: 650px;
 }
