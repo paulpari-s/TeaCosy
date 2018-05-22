@@ -89,3 +89,35 @@ nav span {
   margin: auto;
   width: 650px;
 }
+
+/*Locations*/
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangles {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Contact*/
+
+/*Footer*/
