@@ -120,4 +120,17 @@ nav span {
 
 /*Contact*/
 
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 50px;
+}
+
 /*Footer*/
+
+footer {
+  padding-left: 20px;
+}
